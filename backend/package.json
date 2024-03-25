@@ -13,6 +13,7 @@
     "@types/node": "^20.11.30",
     "@types/sequelize": "^4.28.20",
     "ccxt": "^4.2.82",
+    "dotenv": "^16.4.5",
     "mysql2": "^3.9.2",
     "sequelize": "^6.37.1",
     "typescript": "^5.4.3"

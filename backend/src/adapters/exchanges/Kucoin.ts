@@ -1,6 +1,10 @@
 import ccxt from 'ccxt';
 
-const kucoin = new ccxt.kucoin();
+const kucoin = new ccxt.kucoin({
+  apiKey: process.env.KUCOIN_API_KEY,
+  secret: process.env.KUCOIN_API_SECRET,
+
+});
 
 export async function getLatestPrice(pair: string): Promise<Number> {
   try {
